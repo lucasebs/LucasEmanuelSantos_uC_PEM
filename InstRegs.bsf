@@ -108,6 +108,13 @@ applicable agreement for further details.
 		(line (pt 0 208)(pt 16 208))
 	)
 	(port
+		(pt 0 224)
+		(input)
+		(text "GND" (rect 0 0 25 11)(font "Arial" (font_size 8)))
+		(text "GND" (rect 21 219 46 230)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224))
+	)
+	(port
 		(pt 96 32)
 		(output)
 		(text "Q7" (rect 0 0 16 11)(font "Arial" (font_size 8)))
@@ -162,13 +169,6 @@ applicable agreement for further details.
 		(text "Q0" (rect 0 0 16 11)(font "Arial" (font_size 8)))
 		(text "Q0" (rect 59 139 75 150)(font "Arial" (font_size 8)))
 		(line (pt 96 144)(pt 80 144))
-	)
-	(port
-		(pt 96 160)
-		(output)
-		(text "GND" (rect 0 0 25 11)(font "Arial" (font_size 8)))
-		(text "GND" (rect 50 155 75 166)(font "Arial" (font_size 8)))
-		(line (pt 96 160)(pt 80 160))
 	)
 	(drawing
 		(rectangle (rect 16 16 80 240))

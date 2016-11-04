@@ -20,6 +20,22 @@ applicable agreement for further details.
 */
 (header "graphic" (version "1.4"))
 (pin
+	(input)
+	(rect 128 280 296 296)
+	(text "INPUT" (rect 125 0 152 9)(font "Arial" (font_size 6)))
+	(text "KEY_CLEAR" (rect 5 0 65 10)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 146 16)(font "Arial" (font_size 6)))
+)
+(pin
 	(output)
 	(rect 648 216 824 232)
 	(text "OUTPUT" (rect 1 0 37 9)(font "Arial" (font_size 6)))
@@ -49,23 +65,6 @@ applicable agreement for further details.
 		(line (pt 78 4)(pt 82 8))
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
-	)
-)
-(symbol
-	(rect 224 336 256 368)
-	(text "GND" (rect 8 16 28 25)(font "Arial" (font_size 6)))
-	(text "inst" (rect 3 21 20 31)(font "Arial" )(invisible))
-	(port
-		(pt 16 0)
-		(output)
-		(text "1" (rect 18 0 25 10)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 18 0 25 10)(font "Courier New" (bold))(invisible))
-		(line (pt 16 8)(pt 16 0))
-	)
-	(drawing
-		(line (pt 8 8)(pt 16 16))
-		(line (pt 16 16)(pt 24 8))
-		(line (pt 8 8)(pt 24 8))
 	)
 )
 (symbol
@@ -139,24 +138,8 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(pt 240 336)
-	(pt 240 288)
-)
-(connector
-	(pt 240 288)
-	(pt 272 288)
-)
-(connector
-	(pt 304 264)
-	(pt 304 216)
-)
-(connector
 	(pt 304 216)
 	(pt 440 216)
-)
-(connector
-	(pt 304 312)
-	(pt 304 368)
 )
 (connector
 	(pt 304 368)
@@ -210,5 +193,18 @@ applicable agreement for further details.
 	(pt 424 248)
 	(pt 520 336)
 )
+(connector
+	(pt 296 288)
+	(pt 304 288)
+)
+(connector
+	(pt 304 216)
+	(pt 304 288)
+)
+(connector
+	(pt 304 288)
+	(pt 304 368)
+)
 (junction (pt 520 360))
 (junction (pt 520 224))
+(junction (pt 304 288))
