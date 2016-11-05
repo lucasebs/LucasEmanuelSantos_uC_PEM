@@ -4,47 +4,48 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2013 Altera Corporation
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
 Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
 to the terms and conditions of the Altera Program License 
-Subscription Agreement, Altera MegaCore Function License 
-Agreement, or other applicable license agreement, including, 
-without limitation, that your use is for the sole purpose of 
-programming logic devices manufactured by Altera and sold by 
-Altera or its authorized distributors.  Please refer to the 
-applicable agreement for further details.
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 160 112)
-	(text "RST" (rect 5 0 28 11)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 82 25 92)(font "Arial" ))
+	(rect 16 16 192 112)
+	(text "RST" (rect 5 0 33 16)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 78 41 92)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "KEY_CLEAR" (rect 0 0 66 11)(font "Arial" (font_size 8)))
-		(text "KEY_CLEAR" (rect 21 27 87 38)(font "Arial" (font_size 8)))
+		(text "KEY_CLEAR" (rect 0 0 84 16)(font "Arial" (font_size 8)))
+		(text "KEY_CLEAR" (rect 21 27 105 43)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
-		(pt 144 32)
+		(pt 176 32)
 		(output)
-		(text "/CLR" (rect 0 0 27 11)(font "Arial" (font_size 8)))
-		(text "/CLR" (rect 96 27 123 38)(font "Arial" (font_size 8)))
-		(line (pt 144 32)(pt 128 32))
+		(text "NCLR" (rect 0 0 37 16)(font "Arial" (font_size 8)))
+		(text "NCLR" (rect 118 27 155 43)(font "Arial" (font_size 8)))
+		(line (pt 176 32)(pt 160 32))
 	)
 	(port
-		(pt 144 48)
+		(pt 176 48)
 		(output)
-		(text "CLR" (rect 0 0 23 11)(font "Arial" (font_size 8)))
-		(text "CLR" (rect 100 43 123 54)(font "Arial" (font_size 8)))
-		(line (pt 144 48)(pt 128 48))
+		(text "CLR" (rect 0 0 28 16)(font "Arial" (font_size 8)))
+		(text "CLR" (rect 127 43 155 59)(font "Arial" (font_size 8)))
+		(line (pt 176 48)(pt 160 48))
 	)
 	(drawing
-		(rectangle (rect 16 16 128 80))
+		(rectangle (rect 16 16 160 80))
 	)
 )
